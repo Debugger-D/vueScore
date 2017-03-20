@@ -1,0 +1,11 @@
+.clearBoth{
+  content: '';
+  display: table;
+  clear: both;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
