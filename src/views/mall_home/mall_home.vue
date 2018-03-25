@@ -10,7 +10,7 @@
     components: {vInput},
       data (){
           return {
-              msg: '商城首页',
+              msg: '商城首页11',
               msg1: '商城首页',
           }
       },
