@@ -28,7 +28,7 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-        //账户中心
+       /* //账户中心
         '/account':{
             target: 'http://172.30.248.170/account',
             changeOrigin: true,
@@ -43,7 +43,7 @@ module.exports = {
             pathRewrite: {
                 '^/api/v1/credit/':''
             }
-        }
+        }*/
 
     },
     // CSS Sourcemaps off by default because relative paths are "buggy"

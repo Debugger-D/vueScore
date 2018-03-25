@@ -1,25 +1,17 @@
 <template>
     <div class="mallHome">
-        <v-header :msgToChild="msgToChild"></v-header>
-        <v-slider></v-slider>
-        <h1 @click="link"> {{ msg }}</h1>
-        <v-footer></v-footer>
+        <v-input :label="msg" :val="msg1"></v-input>
     </div>
 </template>
-
 <script>
-  import vHeader from '@/components/header/header'
-  import vFooter from '@/components/footer/footer'
-  import vSlider from '@/components/slider/slider'
+  import vInput from '@/components/slider/slider'
   export default {
     name: 'mall_home',
-    components: {vHeader,vFooter,vSlider},
+    components: {vInput},
       data (){
           return {
               msg: '商城首页',
-              msgToChild:{
-                  sm1Active:true
-              }
+              msg1: '商城首页',
           }
       },
       methods:{
